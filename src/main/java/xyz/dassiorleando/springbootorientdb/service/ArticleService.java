@@ -1,4 +1,4 @@
-package xyz.dassiorleando.springorientdb.service;
+package xyz.dassiorleando.springbootorientdb.service;
 
 import com.orientechnologies.orient.core.db.ODatabaseRecordThreadLocal;
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
@@ -6,7 +6,7 @@ import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.core.sql.OCommandSQL;
 import com.orientechnologies.orient.core.sql.query.OSQLSynchQuery;
 import org.springframework.stereotype.Service;
-import xyz.dassiorleando.springorientdb.domain.Article;
+import xyz.dassiorleando.springbootorientdb.domain.Article;
 
 import java.util.ArrayList;
 import java.util.List;

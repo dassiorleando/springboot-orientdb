@@ -1,10 +1,10 @@
-package xyz.dassiorleando.springorientdb.rest;
+package xyz.dassiorleando.springbootorientdb.rest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-import xyz.dassiorleando.springorientdb.domain.Article;
-import xyz.dassiorleando.springorientdb.service.ArticleService;
+import xyz.dassiorleando.springbootorientdb.domain.Article;
+import xyz.dassiorleando.springbootorientdb.service.ArticleService;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

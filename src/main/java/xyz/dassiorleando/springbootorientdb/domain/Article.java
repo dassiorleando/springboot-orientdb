@@ -1,4 +1,4 @@
-package xyz.dassiorleando.springorientdb.domain;
+package xyz.dassiorleando.springbootorientdb.domain;
 
 import com.orientechnologies.orient.core.record.impl.ODocument;
 

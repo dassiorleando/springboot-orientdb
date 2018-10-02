@@ -1,4 +1,4 @@
-package xyz.dassiorleando.springorientdb.config;
+package xyz.dassiorleando.springbootorientdb.config;
 
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import org.springframework.context.annotation.Bean;
@@ -24,6 +24,11 @@ public class OrientDBConfiguration {
         return new ODatabaseDocumentTx("plocal:" // or plocal
                 + orientDBFolder + "/databases/alibabacloudblog")
                 .open("admin", "admin");
+
+        // or
+
+//        return new ODatabaseDocumentTx("remote:localhost/alibabacloudblog")
+//                .open("admin", "admin"); // To avoid the concurrent process access with on the same local server as the administrator
     }
 
 }

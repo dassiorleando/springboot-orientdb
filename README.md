@@ -1,6 +1,6 @@
-spring-orientdb
+springboot-orientdb
 =========================
-Spring-boot and OrientDB example using the native driver.
+Spring-boot & OrientDB example using the native driver.
 
 Prerequisites
 -------------
@@ -24,5 +24,4 @@ Tasks list
 Run
 ---
 1. orientdb.sh start
-2. ```./mvnw clean install -DskipTests```
-3. ```./mvnw spring-boot:run```
+2. ```./startup.sh```
