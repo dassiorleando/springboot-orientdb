@@ -22,8 +22,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<!--3.0.5-->
-		<orientdb.version>2.2.31</orientdb.version>
+
+		<orientdb.version>3.0.5</orientdb.version>
 	</properties>
 
 	<dependencies>
